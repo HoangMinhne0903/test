@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">  
+     <!-- link lấy font chữ Roboto từ google-->
+     <link rel="preconnect" href="https://fonts.googleapis.com"> 
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CIB SHOP/assets/css/base.css">
+    <link rel="stylesheet" href="/CIB SHOP/Picture-link/piture-link.css/all_product.css">
+    <link rel="stylesheet" href="/CIB SHOP/assets/css/main_footer.css">
+    <link rel="stylesheet" href="/CIB SHOP/assets/css/main_header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="shortcut icon" href="/CIB SHOP/assets/img/Logo Cầu Lông.png" type="image/x-icon">
+    <title>Thanh lý các sản phẩm cầu lông</title>
+</head>
+<body>
+    <header class="header">   <!-- Hoàn thành-->
+        <div class="grid">
+            <div class="header_navbar">
+          <div class="navbar_item">
+                        <img class="item_logo" src="/CIB SHOP/assets/img/logo cầu lông.jpg" alt="LOGO">
+                </div>
+    
+                <div class="navbar_item navbar_item_border">
+                        <div class="item_hotline">  
+                            <i class="fa-solid fa-headphones header_icon"></i>  
+                            <div class="hotline-text">HOTLINE:</div>
+                            <a href="" class="hotline-number">0818214849 | 0797579132</a>
+                        </div>
+                        <div class="item_store_system">
+                            <i class="fa-solid fa-map-location-dot header_icon"></i>
+                            <div class="item_store">HỆ THỐNG CỬA HÀNG</div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-magnifying-glass header_icon item_icon_search"></i>
+                            <input class="item_search" type="text" placeholder="Tìm sản phẩm...">
+                        </div>
+                </div>
+    
+                <div class="navbar_item">
+                        <div class="item_choose">
+                            <div class="choose_lookup">
+                                <i class="fa-solid fa-binoculars choose_icon"></i>
+                                <div>TRA CỨU
+                                    <ul class="lookup_check">
+                                        <li class="check_text">Kiểm tra đơn hàng</li>
+                                        <li class="check_text">Kiểm tra bảo hành</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="choose_account">
+                                <i class="fa-solid fa-user choose_icon"></i>
+                                <div>TÀI KHOẢN
+                                    <ul class="account_list">
+                                        <li class="account_item"><span><i class="fa-solid fa-arrow-right-to-bracket account_item_icon"></i></span><a href="/CIB SHOP/sign_in.html" style="color: black; text-decoration: none;" >Đăng nhập</a></li>
+                                        <li class="account_item"><span><i class="fa-solid fa-user-plus account_item_icon"></i></span><a href="/CIB SHOP/sign_up.html" style="color: black; text-decoration: none;" >Đăng ký</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                                
+                            <div class="choose_cart">
+                                <i class="fa-solid fa-cart-arrow-down choose_icon"></i>
+                                <div>GIỎ HÀNG
+                                    <div class="cart_noti">
+                                        <img class="cart_picture" src="/CIB SHOP/assets/img/no products.png" alt="Ảnh không có sản phẩm">
+                                        <p class="cart_text">Không có sản phẩm nào trong giỏ hàng của bạn</p>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                </div>
+            </div> 
+        </div>
+    </header>
+    <div class="home">
+        <a href="/index.html" class="home_tittle">TRANG CHỦ</a>
+        <a href="/CIB SHOP/saleoff.html" class="home_tittle">SALE OFF</a>
+            <a href="/CIB SHOP/TinTuc.html" class="home_tittle">TIN TỨC</a>
+            <a href="/CIB SHOP/CSNQ.html" class="home_tittle">CHÍNH SÁCH NHƯỢNG QUYỀN</a>
+            <div class="home_tittle">
+                <div class="home_tittle-instruct Reverser_otation">
+                    HƯỚNG DẪN
+                    <i class="fa-solid fa-chevron-down home_icon"></i>
+                    <ul class="instruct_list">
+                        <li class="instruct_list-text">Hướng dẫn thanh toán</li>
+                        <li class="instruct_list-text">Hướng dẫn mua hàng</li>
+                        <li class="instruct_list-text">Hướng dẫn chọn vợt cầu lông</li>
+                        <li class="instruct_list-text">Công nghệ sản phẩm</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="/CIB SHOP/gioithieu.html" class="home_tittle">GIỚI THIỆU</a>
+            <a href="/CIB SHOP/lienhe.html" class="home_tittle">LIÊN HỆ</a>
+        </div>
+
+
+    <div class="container grid">
+        <div class="column popup-column ">
+            <div class="mini_container">
+                <div class="box" >
+                    <h2>CHỌN MỨC GIÁ</h2>
+        <input type="checkbox"><label class="text"> Giá dưới 500.000đ</label><br><br>
+      <input type="checkbox"><label class="text"> 500.000đ - 1 triệu</label><br><br>
+      <input type="checkbox"><label class="text"> 1 - 2 triệu</label><br><br>
+      <input type="checkbox"><label class="text"> 2 - 3 triệu</label><br><br>
+      <input type="checkbox"><label class="text"> Giá trên 3 triệu</label><br><br>
+                </div >
+            <div class="box ">
+                <h2>THƯƠNG HIỆU</h2>  
+                <div class="demand_scroll"> 
+  <input type="checkbox" ><label  class="text"> VNB  </label><br><br>
+  <input type="checkbox" ><label  class="text">  Yonex </label><br><br>
+  <input type="checkbox" ><label  class="text">  Lining </label><br><br>
+  <input type="checkbox" ><label  class="text">  Victor </label><br><br>
+  <input type="checkbox" ><label  class="text">  Forza </label><br><br>
+  <input type="checkbox" ><label  class="text"> Protech  </label><br><br>
+  <input type="checkbox" ><label  class="text">  Kumpoo </label><br><br>
+  <input type="checkbox" ><label  class="text">  Kawasaki </label><br><br>
+  <input type="checkbox" ><label  class="text">  Apacs </label><br><br>
+  <input type="checkbox" ><label  class="text"> Adonex</label><br><br>
+  <input type="checkbox" ><label  class="text"> Babolat  </label><br><br>
+  <input type="checkbox" ><label  class="text"> Pebble Beach  </label><br><br>
+  <input type="checkbox" ><label  class="text"> Proace  </label><br><br>
+  <input type="checkbox" ><label  class="text"> Adidas  </label><br><br>
+  <input type="checkbox" ><label  class="text">VS</label><br><br>
+  <input type="checkbox" ><label  class="text"> DonexPro  </label><br><br>
+  <input type="checkbox" ><label  class="text">  Hãng khác </label><br><br>
+  <input type="checkbox" ><label  class="text"> Joto  </label><br><br>
+  <input type="checkbox" ><label  class="text"> Iron Man      </label><br><br>
+  <input type="checkbox" ><label  class="text">  Ashaway </label><br><br>
+  <input type="checkbox" ><label  class="text">  Mizuno </label><br><br>
+  <input type="checkbox" ><label  class="text"> Sunbatta </label><br><br>
+  <input type="checkbox" ><label  class="text"> FlyPower  </label><br><br>
+  <input type="checkbox" ><label  class="text"> Paramount  </label><br><br>
+  <input type="checkbox" ><label  class="text"> Tenway  </label><br><br>
+  <input type="checkbox" ><label  class="text">  FYKYMI </label><br><br>
+  <input type="checkbox" ><label  class="text">  FUKYMI </label><br><br>
+  <input type="checkbox" ><label  class="text">  Fleet </label><br><br>
+  <input type="checkbox" ><label  class="text">  Maxta </label><br><br>
+  <input type="checkbox" ><label  class="text">  Felet </label><br><br>
+  <input type="checkbox" ><label  class="text">  Yuko </label><br><br>
+  <input type="checkbox" ><label  class="text">  Kolt</label><br><br>
+            </div>
+            </div>
+            <div class="box">
+            <h2>CHI NHÁNH</h2>
+            <div class="demand_scroll">
+            <input type="checkbox" ><label class="text"> VNB PREMIUM Quận 1</label><br><br>
+           <input type="checkbox"><label class="text"> VNB PREMIUM Quận 11</label><br><br>
+           <input type="checkbox" ><label class="text"> VNB PREMIUM Bình Thạnh</label><br><br>
+           <input type="checkbox" ><label class="text"> VNB PREMIUM TP Thủ Đức</label><br><br>
+           <input type="checkbox"><label class="text"> VNB PREMIUM Ninh Kiều Cần Thơ</label><br><br>
+           <input type="checkbox"><label class="text"> VNB Quận 1</label><br><br>
+           <input type="checkbox"><label class="text"> VNB Quận 3</label><br><br>
+           <input type="checkbox" ><label class="text"> VNB Quận 4</label><br><br>
+           <input type="checkbox"><label class="text"> VNB Quận 5</label><br><br>
+           <input type="checkbox" ><label class="text">VNB Quận 6</label><br><br>
+           <input type="checkbox" ><label class="text"> VNB Quận 7</label><br><br>
+           <input type="checkbox"><label class="text"> VNB Quận 8</label><br><br>
+           <input type="checkbox"><label class="text"> VNB Quận 10</label><br><br>
+           <input type="checkbox"><label class="text"> VNB Quận 11</label><br><br>
+           <input type="checkbox" ><label class="text">VNB Quận 12</label><br><br>
+           <input type="checkbox"><label class="text"> VNB Quận 12 - CN2</label><br><br>
+           <input type="checkbox" ><label class="text">VNB Bình Thạnh</label><br><br>
+           <input type="checkbox" ><label class="text"> VNB TP Thủ Đức - CN1</label><br><br>
+           <input type="checkbox"><label class="text"> VNB TP Thủ Đức - CN2</label><br><br>
+           <input type="checkbox"><label class="text"> VNB TP Thủ Đức - CN3  </label><br><br>
+           <input type="checkbox"><label class="text"> VNB TP Thủ Đức - CN4</label><br><br>
+           <input type="checkbox" ><label class="text"> VNB Gò Vấp</label><br><br>
+           <input type="checkbox"><label class="text"> VNB Phú Nhuận</label><br><br>
+           <input type="checkbox" ><label class="text"> VNB Tân Bình</label><br><br>
+           <input type="checkbox" ><label class="text">VNB Tân Phú</label><br><br>
+           <input type="checkbox"><label class="text"> VNB Bình Tân</label><br><br>
+           <input type="checkbox"><label class="text"> VNB Củ Chi</label><br><br>
+           <input type="checkbox"><label class="text">VNB Tây Hồ</label><br><br>
+        </div>
+            </div>
+
+            <div class="box" >
+                <h2> Đối Tượng </h2>
+    <input type="checkbox"><label class="text">  Nam   </label><br><br>
+  <input type="checkbox"><label class="text">  Nữ </label><br><br>
+  <input type="checkbox"><label class="text"> Cả nam và nữ  </label><br><br>
+  <input type="checkbox"><label class="text">  Trẻ em </label><br><br>
+            </div >
+            <div class="box" >
+                <h2> Điểm Nổi Bật </h2>
+    <input type="checkbox"><label class="text">   Toàn Diện  </label><br><br>
+  <input type="checkbox"><label class="text"> Siêu Nhẹ </label><br><br>
+  <input type="checkbox"><label class="text"> Ổn Định  </label><br><br>
+  <input type="checkbox"><label class="text"> Êm Ái  </label><br><br>
+            </div >
+            <div class="box" >
+                <h2> Form Giày </h2>
+    <input type="checkbox"><label class="text">   Slim - Bàn Chân Thon  </label><br><br>
+  <input type="checkbox"><label class="text">  Unisex - Bàn Chân Thường </label><br><br>
+  <input type="checkbox"><label class="text">  Wide - Bàn Chân Bè </label><br><br>
+            </div >
+            <div class="box" >
+                <h2> Thể Loại Chơi </h2>
+    <input type="checkbox"><label class="text">  Ngoài Trời - Sân Bê Tông   </label><br><br>
+  <input type="checkbox"><label class="text">  Trong Nhà - Sân Thảm </label><br><br>
+  <input type="checkbox"><label class="text"> Trong Nhà & Ngoài Trời  </label><br><br>
+            </div >
+            <div class="box" >
+                <h2>Phân Khúc  </h2>
+    <input type="checkbox"><label class="text">  Tầm Thấp   </label><br><br>
+  <input type="checkbox"><label class="text">  Trung Cấp </label><br><br>
+  <input type="checkbox"><label class="text">  Cao Cấp </label><br><br>
+            </div > 
+            <div class="box">
+                <h2>Công nghệ</h2>
+                <div class="demand_scroll">
+                <input type="checkbox" ><label class="text">3D POWER GRAPHITE DRIVE</label><br><br>
+               <input type="checkbox"><label class="text">    3D POWER GRAPHITE SHEET  </label><br><br>
+               <input type="checkbox"><label class="text"> 3D PROTECTION         </label><br><br>
+               <input type="checkbox"><label class="text">    AEROFOAM  </label><br><br>
+               <input type="checkbox"><label class="text">   AIR HOLE   </label><br><br>
+               <input type="checkbox"><label class="text">  AIR MESH    </label><br><br>
+               <input type="checkbox"><label class="text"> ANTI TORSION     </label><br><br>
+               <input type="checkbox"><label class="text">  ANTI-SLIP    </label><br><br>
+               <input type="checkbox"><label class="text">   ANTI-TWIST DESIGN   </label><br><br>
+               <input type="checkbox"><label class="text">   AP+   </label><br><br>
+               <input type="checkbox"><label class="text">   ASYS   </label><br><br>
+               <input type="checkbox"><label class="text">   BEYOND POWER   </label><br><br>
+               <input type="checkbox"><label class="text">    BIONIC OUTSOLE  </label><br><br>
+               <input type="checkbox"><label class="text">   BOA FIT SYSTEM   </label><br><br>
+               <input type="checkbox"><label class="text">   BREATHABLE FARBIC   </label><br><br>
+               <input type="checkbox"><label class="text">   BREATHABLE MESH LAYER DESIGN   </label><br><br>
+               <input type="checkbox"><label class="text">    BREATHING  </label><br><br>
+               <input type="checkbox"><label class="text">   BREATVTHABLE FARBIC   </label><br><br>
+               <input type="checkbox"><label class="text">    CARBON POWER  </label><br><br>
+               <input type="checkbox"><label class="text">   CARBON-FIBER PLATE   </label><br><br>
+               <input type="checkbox"><label class="text">   COOL AIR   </label><br><br>
+               <input type="checkbox"><label class="text">    COOL SHELL  </label><br><br>
+               <input type="checkbox"><label class="text">   CUSHION AND BREATHABILITY   </label><br><br>
+               <input type="checkbox"><label class="text">   CUSHION BOARO TẦNG 2   </label><br><br>
+               <input type="checkbox"><label class="text">   CUSHION TECH INSOLE   </label><br><br>
+               <input type="checkbox"><label class="text">   D-FLEX GROOVE   </label><br><br>
+               <input type="checkbox"><label class="text">    DOUBLE FOOT STABILIZER  </label><br><br>
+               <input type="checkbox"><label class="text">  DOUBLE RACHEL MESH    </label><br><br>
+               <input type="checkbox"><label class="text">   DOUBLE RUSSEL MESH   </label><br><br>
+               <input type="checkbox"><label class="text">   DOUBLE TPU ANTI-TWIST SYSTEM   </label><br><br>
+               <input type="checkbox"><label class="text">   DROP- IN MIDSOLE   </label><br><br>
+               <input type="checkbox"><label class="text">    DURABLE SKIN  </label><br><br>
+               <input type="checkbox"><label class="text">   DURABLE SKIN LIGHT   </label><br><br>
+               <input type="checkbox"><label class="text">  DURABLE TOE AND HEEL COUNTER    </label><br><br>
+               <input type="checkbox"><label class="text">   Dyna Eyelet Wrap   </label><br><br>
+               <input type="checkbox"><label class="text">    DYNAMIC CUSHION  </label><br><br>
+               <input type="checkbox"><label class="text">   DYNANOTION FIT   </label><br><br>
+            </div>
+                </div>
+            
+            </div>
+            <div class="box_oversize">
+                <h2>DANH MỤC SẢN PHẨM</h2>
+                <p style="color: var(--main-color);">Tất cả danh mục</p>
+                <a href="#" class="text">Vợt Cầu Lông</a><br><br>
+                <a href="#" class="text">Giày Cầu Lông</a><br><br>
+                <a href="#" class="text">Áo Cầu Lông</a><br><br>
+                <a href="#" class="text">Váy cầu lông</a><br><br>
+                <a href="#" class="text">Quần Cầu Lông</a><br><br>
+                <a href="#" class="text">Túi Vợt Cầu Lông</a><br><br>
+                <a href="#" class="text">Balo Cầu Lông</a><br><br>
+                <a href="#" class="text">Phụ Kiện Cầu Lông</a><br><br>
+                <a href="#" class="text">Giày Running</a><br><br>   
+                <a href="#" class="text">Vợt Tennis</a><br><br>
+                <a href="#" class="text">Giày Tennis</a><br><br>
+                <a href="#" class="text">Balo tennis</a><br><br>
+                <a href="#" class="text">Túi Tennis</a><br><br>
+                <a href="#" class="text">Chân Váy Tennis</a><br><br>
+                <a href="#" class="text">Áo tennis</a><br><br>
+                <a href="#" class="text">Quần tennis</a><br><br>
+                <a href="#" class="text">Phụ Kiện Tennis</a><br><br>
+                <a href="#" class="text">Máy Đan và Thảm Cầu Lông</a><br><br>
+                <a href="#" class="text">Ghế Massage</a><br><br>
+                <a href="#" class="text">Máy Massage</a><br><br>
+                <a href="#" class="text">Máy Chạy Bộ, Xe Đạp Tập</a><br><br>
+                <a href="#" class="text">Mũ</a><br><br>
+                <a href="#" class="text">Vợt PickleBall</a><br><br>
+                <a href="#" class="text">Phụ kiện sưu tầm</a><br><br>
+            </div>
+        </div>
+
+
+
+        <div class="column ">
+            <div class="title_theme"><h2>GIÀY CẦU LÔNG</h2></div>
+            <div class="large_container">
+                <!-- line1 -->
+                <div class="picture_line">
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl1.webp">
+                        <a class="link" href="/CIB SHOP/Product/GiayTaro.html"><p>Áo khoác cầu lông Vina Authentic AKV04 nam - Xanh nhạt chính...</p></a> 
+                        <span class="sale_price">349.000  <span class="d">đ</span> </span>
+                       
+                    </div>
+
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl2.webp">
+                        <a class="link" href="/CIB SHOP/Product/Giày Kawasaki 358.html">
+                            <p>Áo khoác cầu lông Vina Authentic AKV04 nam - Cam chính hãng</p>
+                            </a> 
+                        <span class="sale_price">830.000 <span class="d">đ</span> </span>
+                        
+                    </div>
+
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl3.webp">
+                        <a class="link" href="/CIB SHOP/Product/Kumbo D72.html">
+                            <p>Áo khoác cầu lông Vina Authentic AKV04 nam - Đen chính hãng  </p>
+                            </a>  
+                        <span class="sale_price">750.000 <span class="d">đ</span> </span>
+                        
+                    </div>
+
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl4.webp">
+                        <a class="link" href="/CIB SHOP/Product/Giày AYZU019-4.html ">
+                            <p>Giày cầu lông Lining AYZU019-4 chính hãng</p>
+                            </a>  
+                        <span class="sale_price">970.000 <span class="d">đ</span> </span>
+                        
+                    </div>
+
+                </div>
+
+
+                    <!-- line2 -->
+                <div class="picture_line">
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl5.webp">
+                        <a class="link" href="/CIB SHOP/Product/GiayTaro.html"><p>Áo cầu lông Kamio Youth V1 KMAT241722 - Xanh bích chính... </p> 
+                       
+                        <span class="sale_price">540.000 <span class="d">đ</span> 
+                        
+                    </div>
+
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl6.webp">
+                        <a class="link" href="/CIB SHOP/Product/Giày Kawasaki 358.html">
+                            <p></p>Áo cầu lông Kamio Youth V1 KMAT241725 - Xanh chuối chín...</p>
+                            </a>
+                        <span class="sale_price">970.000  <span class="d">đ</span> 
+                        
+                    </div>
+
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl7.webp">
+                        <a class="link" href="/CIB SHOP/Product/Kumbo D72.html">
+                            <p>Áo cầu lông Kamio Mystery V1 KMAT242926 - Xanh biển chính...
+                            </p>
+                            </a>    
+                        <span class="sale_price">600.000 <span class="d">đ</span> 
+                       
+                    </div>
+
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl8.webp">
+                        <a class="link" href="/CIB SHOP/Product/Giày AYZU019-4.html ">
+                            <p>Áo cầu lông Kamio Mystery V1 KMAT242922 - Xanh bích chính...</p>
+                             </a> 
+                        <span class="sale_price">970.000   <span class="d">đ</span> 
+                        
+                    </div>
+
+                </div>
+
+
+
+
+                <!-- line3 -->
+
+                <div class="picture_line">
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl9.webp">
+                        <a class="link" href="/CIB SHOP/Product/GiayTaro.html"><p>Áo cầu lông Kamio Mystery V1 KMAT242910 - Đỏ chính hãng</p>
+                        </a>   
+                        <span class="sale_price">890.000 <span class="d">đ</span> 
+                        
+                    </div>
+
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl10.webp">
+                        <a class="link" href="/CIB SHOP/Product/Giày Kawasaki 358.html">
+                            <p>Áo cầu lông Kamio 02 KMAT241926 - Xanh biển chính...</p>
+                            </a> 
+                        <span class="sale_price">890.000  <span class="d">đ</span> 
+                        
+                    </div>
+
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl11.webp">
+                        <a class="link" href="/CIB SHOP/Product/Kumbo D72.html">
+                            <p>Áo cầu lông Kamio 02 KMAT241923 - Xanh đen chính...</p>
+                            </a> 
+                        <span class="sale_price">940.000 <span class="d">đ</span> 
+                       
+                    </div>
+
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl12.webp">
+                        <a class="link" href="/CIB SHOP/Product/Giày AYZU019-4.html ">
+                            <p>Áo khoác cầu lông Vina Authentic AKV10 nam - Tím chính hãng</p>
+                           </a> 
+                        <span class="sale_price">1.040.000  <span class="d">đ</span> 
+                        
+                    </div>
+
+                </div>
+
+
+
+
+                <!-- line4 -->
+
+
+                <div class="picture_line">
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl13.webp">
+                        <a class="link" href="/CIB SHOP/Product/GiayTaro.html"><p>Áo khoác cầu lông Vina Authentic AKV04 nam - Xanh nhạt chính...</p>
+                        </a> 
+                        <span class="sale_price">650.000 <span class="d">đ</span> 
+                        
+                    </div>
+
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl14.webp">
+                        <a class="link" href="/CIB SHOP/Product/Giày Kawasaki 358.html">
+                            <p>Áo khoác cầu lông Vina Authentic AKV04 nam - Cam chính hãng</p>
+                            </a> 
+                        <span class="sale_price">630.000  <span class="d">đ</span> 
+                        
+                    </div>
+
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl15.webp">
+                        <a class="link" href="/CIB SHOP/Product/Kumbo D72.html">
+                            <p>Áo khoác cầu lông Vina Authentic AKV04 nam - Đen chính hãng</p>
+                            </a> 
+                        <span class="sale_price">700.000  <span class="d">đ</span> 
+                       
+                    </div>
+
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl16.webp">
+                        <a class="link" href="/CIB SHOP/Product/Giày AYZU019-4.html ">
+                            <p>Áo khoác cầu lông Vina Authentic AKV13 nam - Đen chính hãng</p>
+                            </a> 
+                        <span class="sale_price">700.000  <span class="d">đ</span> 
+                        
+                    </div>
+
+                </div>
+
+
+
+
+                <!-- line5 -->
+
+                <div class="picture_line">
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl17.webp">
+                        <a class="link" href="/CIB SHOP/Product/GiayTaro.html"><p>Áo khoác cầu lông Vina Authentic AKV13 nam - Xanh chính hãng</p>
+                        </a>   
+                        <span class="sale_price">650.000 <span class="d">đ</span> 
+                        
+                    </div>
+
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl18.webp">
+                        <a class="link" href="/CIB SHOP/Product/Giày Kawasaki 358.html">
+                            <p>Áo khoác cầu lông Vina Authentic AKV13 nam - Xám chính hãng</p>
+                           </a>
+                        <span class="sale_price">570.000  <span class="d">đ</span> 
+                        
+                    </div>
+
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl19.webp">
+                        <a class="link" href="/CIB SHOP/Product/Kumbo D72.html">
+                            <p>Áo khoác cầu lông Vina Authentic AKV12 nam - Xám chính hãng</p>
+                            </a>
+                        <span class="sale_price">570.000  <span class="d">đ</span> 
+                       
+                    </div>
+
+                    <div class="picture_box">
+                        <img class="picture" src="/CIB SHOP/assets/img/gcl20.webp">
+                        <a class="link" href="/CIB SHOP/Product/Giày AYZU019-4.html ">
+                            <p>Áo khoác cầu lông Vina Authentic AKV12 nam - Đen chính hãng</p>
+                            </a> <br>
+                        <span class="sale_price">600.000  <span class="d">đ</span> 
+                        
+                    </div>
+
+                </div>
+              
+                <div class="right_column"><div >Một set đồ tối thiểu cần có để chơi cầu lông hoàn hảo, quan trọng nhất là vợt cầu lông thì giày cầu lông chính là bảo hiểm cho sự an toàn của bạn mỗi phút trên sân. Hiện nay, trên thị trường có khả nhiều hãng cung cấp giày cầu lông nam, giày cầu lông nữ. Tuy vậy, giầy cầu lông Kawasaki, giầy cầu lông Lining, Victor, Yonex... vẫn là những lựa chọn hàng đầu.</div>
+                <h3>Những hãng giày cầu lông hàng đầu tại Việt Nam năm 2024</h3>
+                <p>Cùng với sự phát triển của bộ môn cầu lông hiện nay thì nhu cầu lựa chọn những sản phẩm giày cầu lông chất lượng rất lớn. Có rất nhiều thương hiệu giày cầu lông hiện nay trên thị trường để khách hàng có thể lựa chọn. Một số hãng giày cầu lông tên tuổi phải kể đến đó là Yonex, Lining, Victor, Adidas.  Ngoài ra cũng có nhiều thương hiệu giày cầu lông giá rẻ rất phổ biến như: Kawasaki, VNB, Kumpoo, Lefus... Cùng ShopVNB phân tích chi tiết hơn về các thương hiệu giày cầu lông chính hãng này nhé !</p>
+                <h3>Giày cầu lông Yonex</h3>
+                <p><a href="" class="text2">Giày cầu lông Yonex </a>đặc biệt nổi trội về các mẫu giày đánh cầu lông cao cấp, chất lượng luôn mang đến độ êm ái tối đa cùng độ ổn định hoàn hảo trên từng bước chạy của người sử dụng. </p>
+                <p>Các sản phẩm của Yonex được cải tiến và ra mắt thường xuyên theo hàng năm. Hãng cầu lông nổi tiếng thế giới Yonex không chỉ mạnh về vợt cầu lông mà giày cầu lông Yonex cũng là một lựa chọn hàng đầu của nhiều người chơi. Sản phẩm giày cầu lông Yonex có nhiều mẫu mã rất bắt mắt, nhiều phân khúc tầm giá từ cao cấp, trung cấp đến những đôi giày cầu lông yonex giá rẻ. Ngoài ra, những đôi giày yonex luôn đi tiên phong về công nghệ cũng như về chất lượng.</p>
+                <p>Nhắc đến công nghệ của giày cầu lông Yonex không thể không nhắc tới công nghệ tối tân Power Cushion. Bộ đệm này đảm bảo sự êm ái trong từng chuyển động với độ đàn hồi cực kì tốt. Power Cushion là công nghệ độc quyền của Yonex được trang bị lên phần lớn các mẫu giày cầu lông của hãng hiện nay. Ngoài ra, thì hãng còn nâng cấp thêm với công nghệ Power Cushion Plus với khả năng hấp thụ sốc cao nhưng vẫn đảm bảo trọng lượng siêu nhẹ cho các sản phẩm giày cầu lông Yonex. </p>
+                <p>Giày cầu lông Yonex khá đa dạng về mẫu mã cũng như các dòng phù hợp với nhiều đối tượng người chơi khác nhau. Một số dòng sản phẩm như: </p>
+                <p>- Yonex SHB 65: Hoàn hảo về mọi mặt, những bước chạy đầu tiên với độ nhẹ nhàng, độ êm ái, độ ổn định. Một số sản phẩm nổi trội của dòng này như: Giày cầu lông Yonex SHB 65Z2M Trắng xanh, Giày cầu lông Yonex SHB 65Z2M Đen Xanh, Giày cầu lông Yonex SHB 65X2M Đen đỏ,...</p>
+                <p>- Giày cầu lông Yonex Eclipsion - Mang tính ổn định cao nhất cho mỗi bước chạy. Các sản phẩm của dòng giày này sẽ giúp cho bước chân của bạn tự tin và ổn định hơn được đa số các bạn dân chơi phong trào cực ưa chuộng với thiết kế khá thời thượng, hiện đại, cùng phối hoàn hảo cực bắt mắt. Một số sản phẩm nổi trội của dòng này như: Giày cầu lông Yonex Eclipsion Trắng Cam (mã JP), Giày cầu lông Yonex Eclipsion Z Men - Đen Vàng,</p>
+                <p>- Giày cầu lông Yonex Aerus là một trong những dòng giày được hãng Yonex đẩy mạnh, hướng đến đối tượng người chơi đặc thù. Dòng Giày Yonex Aerus được mệnh danh là dòng giày siêu nhẹ của hãng Yonex, được hãng bổ trợ một loạt các công nghệ hiện đại. Vật liệu sợi vải tổng hợp phối da cũng là yếu tố quan trọng giúp cho đôi giày Yonex Aerus sở hữu một trọng lượng siêu nhẹ như vậy, giúp người dùng dễ dàng linh hoạt cho từng bước chân.</p>
+                <p>- Ngoài ra thì Yonex cũng thường cho ra các dòng giày cầu lông Yonex giá rẻ phù hợp cho người mới chơi, người chơi phong trào, học sinh, sinh viên như Giày Yonex Drive, Giày Cầu Lông Yonex Tokyo hay mới nhất là mẫu <a href="" class="text2"> Giày Cầu Lông Yonex Bubble Out.</a></p>
+                <h3>Giày cầu lông Victor</h3>
+                <p>Victor là một trong những hãng cầu lông lớn nhất thể giới hiện nay đến từ Đài Loan. Thương hiệu Victor đi đầu trong sản xuất những dụng cụ cầu lông cùng với Yonex và Lining. Hãng rất được ưa chuộng và thịnh hành tại Việt Nam với những đặc tính ưu việt của sản phẩm. Và một trong số sản phẩm không thể thiếu khi chơi cầu lông mà người chơi lựa chọn đó chính là giày cầu lông Victor. </p>
+                <p><a href="" class="text2">Giày cầu lông Victor </a> sở hữu mẫu mã đa dạng và chất lượng tốt cùng với giá thành khá rẻ chỉ từ vài trăm ngàn đến hơn một triệu. Với thiết kế hiện đại, mẫu mã đơn giản, giá thành rẻ thì những sản phẩm giày cầu lông Victor được người chơi cầu lông ở Việt Nam ưa chuộng. </p>
+                <p>Giày cầu lông Victor có thiết kế form rất đa dạng dành cho cả người chân thon và chân bè. Hầu hết giày cầu lông Victor có phần mũi giày mở rộng, tạo cảm giác thoải mái các ngón chân, chống sốc và tối ưu tối đa khi vận động.</p>
+                <h3>Giày cầu lông Lining</h3>
+                <p>Bên cạnh thương hiệu Yonex nổi tiếng từ Nhật Bản thì Lining cũng là một thương hiệu được nhiều người chơi cầu lông tin tưởng và lựa chọn đến từ Trung Quốc. Ngoài việc sản xuất ra những mẫu vợt cao cấp cho các vận động viên chuyên nghiệp thì những mẫu giày Lining cũng vô cùng chất lượng. </p>
+                <p><span class="stress">Giày cầu lông Lining</span> rất đa dạng về mẫu mã, nhiều kiểu dáng thời trang năng động thích hợp cho cả nam và nữ. Sản phẩm của hãng Lining được thiết kế mẫu mã khá đẹp, dễ tiếp cận, nhưng lại sở hữu những công nghệ hiện đại mang tới sự hoàn hảo trên những đôi giày cầu lông.</p>
+                <p><a href="" class="text2">Giày cầu lông Lining </a> có một đặc điểm chung là màu sắc khá bắt mắt, hình thức dễ nhìn và hướng tới đa dạng người chơi. Giày Lining khá được ưa chuộng ở thị trường trong nước vì tính ưu việt và mức giá phải chăng và có nhiều sự lựa chọn cho từng đối tượng người chơi. Một số sản phẩm có mức giá rẻ, nhưng chất lượng vẫn đảm bảo nhu cầu thiết yếu cho người chơi, đặc biệt có nhiều sản phẩm vừa túi tiền cho người mới chơi, những bạn học sinh, sinh viên.                </p>
+                <h3>Giày cầu lông Kawasaki</h3>
+                <p>Giày cầu lông Kawasaki là một trong số những dòng sản phẩm giày cầu lông có thương hiệu nổi tiếng về chất lượng tốt, kiểu dáng sang trọng. Sản phẩm được thiết kế cách điệu với kiểu dáng trẻ trung năng động với những chi tiết thiết kế ấn tượng mang lại sự thoải mái nhất cho chân người sử dụng. </p>
+                <p>Giày Kawasaki được thiết kế với nhiều kiểu dáng đa dạng, bắt mắt vừa có thể làm nổi bật nên phong cách thời trang thời thượng mà còn góp phần thể hiện các tính của chủ sở hữu. Hầu hết những mẫu <a href="" class="text2"> giày cầu lông kawasaki</a> đều được từ những chất liệu cao cấp, mang lại chất lượng sử dụng tốt nhất và bền bỉ. Đế giày cao su với những đường vân benzen tăng khả năng bám sân tốt cùng với độ đàn hồi cao giúp nâng đỡ bàn chân người sử dụng.</p>
+                <p>Điểm đặc biệt nhất của mẫu giày kawasaki là giá thành khá rẻ, có thể phù hợp với những người chơi phong trào, giày cầu lông giá rẻ cho học sinh, sinh viên. Bên cạnh đó là bộ đế cứng, có thể sử dụng tốt ở những sân xi măng hay công viên. Một số sản phẩm giày kawasaki nổi tiếng như <a href="" class="text2"> Giày Cầu Lông Kawasaki 063 - Trắng Đen</a>, Giày Cầu Lông Kawasaki 086 Xanh Navy.</p>
+                <h3>Tại sao bạn nên chọn giày cầu lông chính hãng?</h3>
+                <p>Bộ môn cầu lông là một trong những bộ môn thể thao đòi hỏi người chơi hoạt động với cường độ cao, di chuyển nhiều, tác động lực mạnh trong những động tác đập nhảy, cứu cầu. Chính vì thế giày cầu lông đóng một vai trò vô cùng quan trọng trong quá trình tập luyện cũng như thi đấu. Ở các vị trí như cổ chân, gót chân nơi đón toàn bộ lực tác động và trọng lượng khi di chuyển nên chịu rất nhiều áp lực. Do dùng giày cầu lông không chất lượng , không phù hợp với bàn chân nên nhiều người chơi đã gặp phải một số vấn đề không máy mắn, chấn thương.</p>
+                <p><span class="stress">Giày cầu lông chính hãng</span> luôn được áp dụng 100% những công nghệ tiên tiến nhất vào sản phẩm nhằm cho ra những hiệu năng tốt khi sử dụng và bảo vệ tốt nhất cho người chơi. Ngoài ra, hiện nay trên thị trường giày cầu lông chính hãng giá thành cũng không quá cao. Những thương hiệu giày cầu lông nổi tiếng trên thế giới như Yonex, Victor cũng cho ra mắt những sản phẩm có mức giá tầm vài trăm đến trên 1 triệu.</p>
+                <p>Có rất nhiều người chơi cho rằng mang giày giả, giống với hàng chính hãng vừa rẻ mà mẫu mã cũng giống vậy. Nhận định này của chúng ta là sai lầm hoàn toàn và có thể sẽ mang lại hậu quả vô cùng nghiêm trọng. Những đôi giày cầu lông làm giả, làm nhái thường chỉ có ngoại hình na ná sản phẩm giày cầu lông chính hãng. Nhưng về công nghệ, độ bám sân, độ giảm chấn khi di chuyển cũng như chống lật cổ chân là rất thấp. Điều này sẽ cực kì nguy hiểm, có thể là những trường hợp đáng tiếc xảy ra khi chấn thương. Chính vì vậy bạn nên chọn mua giày cầu lông chính hãng để đảm bảo chất lượng cũng như bảo vệ đôi chân mình một cách tốt nhất.</p>
+                <h3>Shop giày cầu lông chính hãng tại TP HCM, Hà Nội và Toàn quốc | ShopVNB</h3>
+                <p>Hệ thống cửa hàng cầu lông VNB Sports với hơn 50 chi nhánh trên toàn quốc. Là một trong những shop giày cầu lông chính hãng uy tín nhất trên thị trường hiện nay. <span class="stress">Shop giầy cầu lông </span> VNB luôn nhận được những lời nhận xét tích cực cùng những phản hồi siêu tốt. VNB Sports được biết đến là một trong những cửa hàng bán giày cầu lông giá rẻ tphcm và toàn quốc chất lượng tốt nhất.</p>
+                <p>Tại các cửa hàng cầu lông Shop VNB được trang bị đầy đủ các mẫu giày cầu lông từ giá rẻ thiên về độ bền bỉ phù hợp cho người chơi phong trào như Kawasaki, Kumpoo, VNB có giá thành vài trăm nghìn cho đến các mẫu giày siêu cao cấp lên đến 2 - 3 triệu có độ êm ái cực cao, bám sân siêu tốt từ các thương hiệu cầu lông hàng đầu trên thế giới như Yonex, Mizuno, Lining, Adidas,... Đảm bảo sẽ làm các lông thủ dễ dàng đưa ra những sự lựa chọn hợp lí nhất với bản thân của mình.</p>
+                <p>Đặc biệt, bạn có thể dễ dàng ghé các cửa hàng để lựa chọn cũng như mang thử sản phẩm vì hiện tại shopVNB đã có mặt trên hầu hết ở những khu Đô Thị lớn trên cả nước. Bên cạnh đó, nếu ở xa thì các bạn cũng có thể đặt online trực tiếp trên website, sẽ có nhân viên ship hàng đến tận nhà. Đi cùng với những sản phẩm giày cầu lông chính hãng luôn là chính sách bảo hành, hậu mãi cực tốt đến từ shop giày cầu lông VNB. </p>
+                <h3>Bảng giá giày cầu lông mới nhất 2024</h3>
+                <p>Hiện nay trên thị trường có rất nhiều sản phẩm giày cầu lông với nhiều phân khúc giá giày cầu lông khác nhau. ShopVNB gửi đến các bạn bảng giá giày cầu lông của những sản phẩm hot nhất hiện nay.</p>
+                <table>
+                    <tr>
+                      <th>Sản phẩm giày cầu lông</th>
+                      <th>Giá giày cầu lông</th>
+                    </tr>
+                    <tr>
+                      <td cls> <a href="" class="text2">Giày Cầu Lông Yonex Aerus Z2 Men - Cam Hồng (Mã JP)</a>  </td>
+                      <td>2.950.000 ₫</td>
+                    </tr>
+                    <tr>
+                      <td><a href="" class="text2">Giày Cầu Lông Yonex Bubble Out (Al/Ss) Chính Hãng</a></td>
+                      <td>899.000 ₫</td>
+                    </tr>
+                    <tr>
+                      <td><a href="" class="text2">Giày Cầu Lông Felet BS 965 Chính Hãng</a></td>
+                      <td>1.269.000 ₫</td>
+                    </tr>
+                    <tr>
+                      <td><a href="" class="text2">Giày Cầu Lông Yonex Aerus Z2 Wide - Xanh Sáng Chính Hãng</a></td>
+                      <td>2.850.000 ₫</td>
+                    </tr>
+                    <tr>
+                      <td><a href="" class="text2">Giày Cầu Lông Mizuno Dynablitz Mid - Đen Xanh Chính Hãng</a></td>
+                      <td>850.000 ₫</td>
+                    </tr>
+                    <tr>
+                      <td><a href="" class="text2">Giày Cầu Lông Kumpoo KH D02 Trắng Chính Hãng</a></td>
+                      <td>1.050.000 ₫ </td>
+                    </tr>
+                    <tr>
+                        <td><a href="" class="text2">Giày Cầu Lồng Victor A172 F - Xanh Chính Hãng</a></td>
+                        <td>2.900.000 ₫</td>
+                      </tr>
+                      <tr>
+                        <td><a href="" class="text2">Giày Cầu Lông Mizuno Wave Claw 2 - Trắng Xanh Cam New Chính Hãng</a></td>
+                        <td>2.600.000 ₫</td>
+                      </tr>
+                      <tr>
+                        <td><a href="" class="text2">Giày Cầu Lông Victor VGHS Nội Địa</a></td>
+                        <td>1.680.000 ₫ </td>
+                      </tr>
+                  </table>
+        
+        
+        
+        
+        </div>
+
+            </div><!-- large_container -->
+            
+            
+
+        </div>
+    </div>
+        
+
+    <div class="footer1">
+        <div class="grid">
+            <div class="footer1-item">
+                <div class="footer_column">
+                    <h3 class="footer_title">THÔNG TIN CHUNG</h3>
+                    <p class="footer_text"><span class="footer_text_main">VNB Sports</span> là hệ thống cửa hàng cầu lông với hơn 50 chi nhánh trên toàn quốc, cung cấp sỉ và lẻ các mặt hàng dụng cụ cầu lông từ phong trào tới chuyên nghiệp</p>
+                    <p class="footer_text_italic"><span class="footer_text_main">Với sứ mệnh:</span>"VNB cam kết mang đến những sản phẩm, dịch vụ chất lượng tốt nhất phục vụ cho người chơi thể thao để nâng cao sức khỏe của chính mình."</p>
+                    <p class="footer_text_italic"><span class="footer_text_main">Tầm nhìn:</span>"Trở thành nhà phân phối và sản xuất thể thao lớn nhất Việt Nam"</p>
+                </div>
+                <div class="footer_column">
+                    <h3 class="footer_title">THÔNG TIN LIÊN HỆ</h3>
+                    <p class="footer_text">Hệ thống cửa hàng:
+                    <span><a href="https://shopvnb.com/he-thong-cua-hang" class="footer_text_main">5 shop Premium và 63 cửa hàng</a></span>
+                    <span class="footer_text">trên toàn quốc</span></p>
+                    <a href="https://shopvnb.com/he-thong-cua-hang" class="footer_text_main_bold">Xem tất cả các cửa hàng VNB</a>
+                    <p class="footer_text">Hotline: <a href="#" class="footer_text_main">0977508430 | 0792677415</a></p>
+                    <p class="footer_text">Email: <a href="#" class="footer_text_main">info@shopvnb.com</a></p>
+                    <p class="footer_text">Hợp tác kinh doanh: <a href="#" class="footer_text_main">0947342259 (Ms. Thảo)</a></p>
+                    <p class="footer_text">Hotline bán sỉ: <a href="#" class="footer_text_main">0911 105 211</a></p>
+                    <p class="footer_text">Nhượng quyền thương hiệu: <a href="#" class="footer_text_main">0334.741.141 (Mr. Hậu)</a></p>
+                    <p class="footer_text">Than phiền dịch vụ: <a href="#" class="footer_text_main">0334.741.141 (Mr. Hậu)</a></p>
+                    <div class="footer_icon_main">
+                        <a href="" class="footer_icon_main-a"><i class="fa-brands fa-facebook-f footer_icon"></i></a>
+                        <a href="" class="footer_icon_main-a"><i class="fa-brands fa-youtube footer_icon"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="footer_column">
+                    <h3 class="footer_title">CHÍNH SÁCH</h3>
+                    <ul class="footer_list">
+                        <li class="footer_item_list"><a href="#" class="footer_list_link">Chính sách đổi trả, hoàn tiền</a></li>
+                        <li class="footer_item_list"><a href="#" class="footer_list_link">Chính sách bảo hành</a></li>
+                        <li class="footer_item_list"><a href="#" class="footer_list_link">Chính sách xử lý khiếu nại</a></li>
+                        <li class="footer_item_list"><a href="#" class="footer_list_link">Chính sách vận chuyển</a></li>
+                        <li class="footer_item_list"><a href="#" class="footer_list_link">Chính sách bảo mật thông tin</a></li>
+                        <li class="footer_item_list"><a href="#" class="footer_list_link">chính sách nhượng quyền</a></li>
+                    </ul>
+                </div>
+                <div class="footer_column">
+                    <h3 class="footer_title">HƯỚNG DẪN</h3>
+                    <ul class="footer_list">
+                        <li class="footer_item_list"><a href="#" class="footer_list_link">Điều khoản sử dụng</a></li>
+                        <li class="footer_item_list"><a href="#" class="footer_list_link">Tìm hiểu công việc tập huấn tennis trước khi tổ chức giải đấu</a></li>
+                        <li class="footer_item_list"><a href="#" class="footer_list_link">Bảng size Lining - Cách chọn size quần áo lining, giày cầu lông Lining</a></li>
+                        <li class="footer_item_list"><a href="#" class="footer_list_link">Hướng dẫn cách tập tennis cho người mới chơi</a></li>
+                        <li class="footer_item_list"><a href="#" class="footer_list_link">Hướng dẫn cách chọn vợt cầu lông cho người mới chơi</a></li>
+                        <li class="footer_item_list"><a href="#" class="footer_list_link">Hướng dẫn thanh toán</a></li>
+                        <li class="footer_item_list"><a href="#" class="footer_list_link">Kiếm tra bả hành</a></li>
+                        <li class="footer_item_list"><a href="#" class="footer_list_link">Kiếm tra đơn hàng</a></li>
+                        <li class="footer_item_list"><a href="#" class="footer_list_link">HƯỚNG DẪN MUA HÀNG</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer2">
+        <p><i class="fa-solid fa-copyright"></i>CÔNG TY TNHH VNB SPORTS</p>
+        <p>GPDK số 0314496879 do Sở KH vs ĐT TP Hồ Chí Minh cấp ngày 05/07/2017</p>
+        <p>GĐ/Sở hữu website: Phan Lê Chi</p>
+       <a href="http://online.gov.vn/Home/WebDetails/61951"><img style="width: 22rem; height: 8rem;" src="/CIB SHOP/assets/img/logo_bo_cong_thuong.png"></a>
+        </div>
+        <div align="right" class="icon-bar-right">
+          <a href="#" style="border: node; width: 4rem; border-radius: 0.7rem;"><img style="width: 4.2rem; height: 4rem;" src="/CIB SHOP/assets/img/up arrow.png"> </a>
+          <a href="/CIB SHOP/zalo.html" style="border: node; width: 5rem; height: 5rem; background-color: aliceblue; border-radius: 0.7rem;"><img style="width: 5rem; height: 5rem;" src="/CIB SHOP/assets/img/zalo-tach-nen.png"></a>
+          <a href="https://shopvnb.com/" ><img style="width: 20rem; height: 4.6rem;" src="/CIB SHOP/assets/img/hethongcuahang.png"></a>
+        </div>
+      <div class="icon-bar-left">
+        <a href="#" class="icon-left"><div style="padding: 1.5rem;">Xem giỏ hàng (0)</div></a>
+      </div>
+</body>
+</html>
